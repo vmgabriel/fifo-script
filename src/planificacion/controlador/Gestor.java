@@ -27,7 +27,7 @@ public class Gestor {
         data.getCola().insertar(id, nombre, tLlegada, tRafaga);
 
         //Ordenar 
-        ventana.mostarMenssaje("Se ha insertado el proceso");
+        ventana.mostarMenssaje("Insertado Correctamente");
 
         ventana.refrescar(data.atenderProcesos());
         ventana.getLienzo().setEjecuta(true);
